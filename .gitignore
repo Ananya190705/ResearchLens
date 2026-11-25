@@ -1,0 +1,27 @@
+@"
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Uploaded files
+backend/uploads/
+ai-service/uploads/
+uploads/
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.DS_Store
+"@ | Set-Content .gitignore
